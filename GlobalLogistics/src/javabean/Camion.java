@@ -1,6 +1,6 @@
 package javabean;
 
-public class Camion extends Vehiculo {
+public class Camion extends Vehiculo implements Geolocalizable {
 
 	private int numeroEjes;
 	private static final double CONSUMO_POR_KM = 0.45;
